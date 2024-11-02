@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-29T16:05:27 IST" name="TutorialsNinja Automation Suite" finished-at="2024-10-29T16:06:07 IST" duration-ms="40043">
+    <groups>
+    </groups>
+    <test started-at="2024-10-29T16:05:27 IST" name="TutorialsNinja Tests" finished-at="2024-10-29T16:06:07 IST" duration-ms="40043">
+      <class name="com.ninja.test.Search">
+        <test-method is-config="true" signature="codeOptimizedMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:00 IST" name="codeOptimizedMethod" finished-at="2024-10-29T16:06:02 IST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codeOptimizedMethod -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:02 IST" name="verifySearchWithValidProduct" finished-at="2024-10-29T16:06:02 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:02 IST" name="quitMethod" finished-at="2024-10-29T16:06:02 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+        <test-method is-config="true" signature="codeOptimizedMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:02 IST" name="codeOptimizedMethod" finished-at="2024-10-29T16:06:04 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codeOptimizedMethod -->
+        <test-method signature="verifySearchWithNonExistingProductName()[pri:2, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:04 IST" name="verifySearchWithNonExistingProductName" finished-at="2024-10-29T16:06:04 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNonExistingProductName -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:04 IST" name="quitMethod" finished-at="2024-10-29T16:06:05 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+        <test-method is-config="true" signature="codeOptimizedMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:05 IST" name="codeOptimizedMethod" finished-at="2024-10-29T16:06:06 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codeOptimizedMethod -->
+        <test-method signature="verifyWithoutAnyProductName()[pri:3, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:06 IST" name="verifyWithoutAnyProductName" finished-at="2024-10-29T16:06:06 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutAnyProductName -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Search@6cf0e0ba]" started-at="2024-10-29T16:06:06 IST" name="quitMethod" finished-at="2024-10-29T16:06:07 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+      </class> <!-- com.ninja.test.Search -->
+      <class name="com.ninja.test.Login">
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:39 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:41 IST" duration-ms="1852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:41 IST" name="verifyLoginWithValidCredentials" data-provider="testDataOneMethod" finished-at="2024-10-29T16:05:42 IST" duration-ms="724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwertyu123poi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:42 IST" name="closeMethod" finished-at="2024-10-29T16:05:42 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:42 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:44 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:44 IST" name="verifyLoginWithValidCredentials" data-provider="testDataOneMethod" finished-at="2024-10-29T16:05:45 IST" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpk01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:45 IST" name="closeMethod" finished-at="2024-10-29T16:05:45 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:45 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:47 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:47 IST" name="verifyLoginWithValidCredentials" data-provider="testDataOneMethod" finished-at="2024-10-29T16:05:47 IST" duration-ms="686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpk02@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:47 IST" name="closeMethod" finished-at="2024-10-29T16:05:48 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:48 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:49 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:49 IST" name="verifyLoginWithValidCredentials" data-provider="testDataOneMethod" finished-at="2024-10-29T16:05:50 IST" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testpk03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:50 IST" name="closeMethod" finished-at="2024-10-29T16:05:50 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:50 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:52 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:52 IST" name="loginWithInvalidCredentials" finished-at="2024-10-29T16:05:53 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:53 IST" name="closeMethod" finished-at="2024-10-29T16:05:53 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:53 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:55 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="loginWithInvalidEmailAndValidPassword()[pri:3, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:55 IST" name="loginWithInvalidEmailAndValidPassword" finished-at="2024-10-29T16:05:55 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:55 IST" name="closeMethod" finished-at="2024-10-29T16:05:55 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:55 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:05:57 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="loginWithValidEmailAndInvalidPassword()[pri:4, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:57 IST" name="loginWithValidEmailAndInvalidPassword" finished-at="2024-10-29T16:05:58 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:58 IST" name="closeMethod" finished-at="2024-10-29T16:05:58 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="commonDataMethodForAllMethods()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:05:58 IST" name="commonDataMethodForAllMethods" finished-at="2024-10-29T16:06:00 IST" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonDataMethodForAllMethods -->
+        <test-method signature="loginWithoutAnyCredentials()[pri:5, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:06:00 IST" name="loginWithoutAnyCredentials" finished-at="2024-10-29T16:06:00 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutAnyCredentials -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:com.ninja.test.Login@4f83df68]" started-at="2024-10-29T16:06:00 IST" name="closeMethod" finished-at="2024-10-29T16:06:00 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- com.ninja.test.Login -->
+      <class name="com.ninja.test.Register">
+        <test-method is-config="true" signature="commonOptimizedMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:27 IST" name="commonOptimizedMethod" finished-at="2024-10-29T16:05:29 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonOptimizedMethod -->
+        <test-method signature="verifyRegisterUsingMandatoryFields()[pri:1, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:29 IST" name="verifyRegisterUsingMandatoryFields" finished-at="2024-10-29T16:05:30 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterUsingMandatoryFields -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:30 IST" name="quitMethod" finished-at="2024-10-29T16:05:30 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+        <test-method is-config="true" signature="commonOptimizedMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:30 IST" name="commonOptimizedMethod" finished-at="2024-10-29T16:05:32 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonOptimizedMethod -->
+        <test-method signature="verifyRegisteringAccountByProvidingAllFields()[pri:2, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:32 IST" name="verifyRegisteringAccountByProvidingAllFields" finished-at="2024-10-29T16:05:33 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:33 IST" name="quitMethod" finished-at="2024-10-29T16:05:34 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+        <test-method is-config="true" signature="commonOptimizedMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:34 IST" name="commonOptimizedMethod" finished-at="2024-10-29T16:05:36 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonOptimizedMethod -->
+        <test-method signature="verifyWithExistingEmailAddress()[pri:3, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:36 IST" name="verifyWithExistingEmailAddress" finished-at="2024-10-29T16:05:37 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithExistingEmailAddress -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:37 IST" name="quitMethod" finished-at="2024-10-29T16:05:37 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+        <test-method is-config="true" signature="commonOptimizedMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:37 IST" name="commonOptimizedMethod" finished-at="2024-10-29T16:05:39 IST" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonOptimizedMethod -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:39 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-10-29T16:05:39 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:com.ninja.test.Register@16293aa2]" started-at="2024-10-29T16:05:39 IST" name="quitMethod" finished-at="2024-10-29T16:05:39 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitMethod -->
+      </class> <!-- com.ninja.test.Register -->
+    </test> <!-- TutorialsNinja Tests -->
+  </suite> <!-- TutorialsNinja Automation Suite -->
+</testng-results>
